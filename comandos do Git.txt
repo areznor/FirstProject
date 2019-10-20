@@ -1,0 +1,15 @@
+git init >> iniciar controle de um projeto
+git clone >> pegar um projeto de um servidor remoto ou clonar
+git add . ou git add <<nome>> ->> adicionar arquivos rastreáveis
+git commit -m 'mensagem' >> salvar as alterações em formato de commit - id identificador e mensagem, forma de acoplar e salvar as alterações, tornando-as rastreáveis. -m é o parâmetro da mensagem, e deve descrever o que você está fazendo, por ex. adicionando formulário de contrato à página
+git push >> disponibilizar no servidor
+git pull >> para obter alterações baixadas do repositório local (atualização do repositório local)
+git merge >> juntar alterações de uma branch com uma branch principal. tbm serve para a resolução de conflitos a partir de mensagens do terminal, e que vc precisará corrigir manualmente.
+git status >> comando que provê informações referentes ao status atual do projeto. devolve o estado atual de um documento no repositório
+git log >> histórico de alterações de um repositório, horários e mensagem de commit
+git branch <<nome>> ->> criação de um novo ramo, ramificações. Há um ramo principal, o master, e os que surgem depois são os novos branchs. não é ideal adicionar novas features diretamente no branch master, para evitar problemas de inconsistência, então essas novas features e requisitos são commitados por meio de branchs. assim você garante que o código principal está sempre funcionando, mesmo que você esteja atualizando o projeto.
+
+repositório local - criado na minha máquina a partir do git init
+repositório remoto - está sendo distribuído pelo servidor - push para o servidor remodo, commit pelo local.
+
+http://git-scm.com/docs
